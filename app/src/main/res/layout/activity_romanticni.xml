@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_romanticni"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aminapc.filmquiz.Romanticni">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/titanic"
+                    android:id="@+id/titanic"/>
+
+                <TextView
+                    android:text="Titanic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:id="@+id/titanic_naslov"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold"
+                    android:textSize="18dp"
+                    android:textColor="#a9508a"/>
+
+                <TextView
+                    android:text='Romantična priča o bogatoj djevojci Rose DeWitt Bukater i siromašnom momku Jack Dawsonu koji se susreću i zaljubljuju na "nepotopljivom brodu", dok posada broda žuri da obori dotadašnji rekord u putovanju preko Atlantika (na putu im stoji samo santa leda).  Titanic je treći film u historiji Američke filmske akademije koji je osvojio 11 Oscara. Također, to je najprofitabilniji film u historiji i prvi film koji je u cijelom svijetu zaradio više od 1 milijarde dolara.'
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="16dp"
+                    android:id="@+id/titanic_opis"
+                    android:textAlignment="center"
+                    android:textColor="#a9508a"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    app:srcCompat="@drawable/notebook"
+                    android:id="@+id/notebook"/>
+
+                <TextView
+                    android:text="Notebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:id="@+id/notebook_naslov"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textColor="#a9508a"/>
+
+                <TextView
+                    android:text="Bilježnica (engl. The Notebook) je američki ljubavni film iz 2004. Režirao ga je Nik Kasavetes (Nick Cassavetes), scenario je napisao Jan Sardi prema istoimenom romanu Nikolasa Sparksa (Nicholas Sparks). Iako snimljen sa relativno niskim budžetom i tada nepoznatim glumcima Rajanom Gozlingom i Rejčel Mekadams) u glavnim ulogama, i uprkos nedostatka entuzijazma kod kritičara, postao je iznenađujući hit, odnosno stekao izuzetnu popularnost među tinejdžerima i mlađom publikom. Danas se smatra jednim od najuspešnijih ljubavnih filmova 21. veka, a Gozling i Makadams, koji su nedugo posle filma neko vreme imali vezu i u stvarnom životu, postali velike holivudske zvijezde."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:id="@+id/notebook_opis"
+                    android:textAlignment="center"
+                    android:textColor="#a9508a"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    app:srcCompat="@drawable/meters"
+                    android:id="@+id/meters"/>
+
+                <TextView
+                    android:text="3 metra iznad neba"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:id="@+id/meters_naslov"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textColor="#a9508a"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:id="@+id/meters_opis"
+                    android:textAlignment="center"
+                    android:textColor="#a9508a"
+                    android:text="Babi je odlična učenica, dok je Step klasični nasilnik i očigledno je da se radi o dva potpuno različita svijeta. Međutim, ipak se zaljubljuju jedno u drugo.Babi postaje neprepoznatljiva u očima roditelja, a Step ne može da sakrije sve svoje atribute koji se uklapaju u sliku opasnog tipa.Ipak, ubrzo se otkriva da njegovi mišići i nasilje kriju jednu traumu, jedan neodmršeni čvor koji baca mračnu sjenku na Stepov porodični život i na mučnu ljubavnu priču sa Babi."/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

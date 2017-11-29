@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.aminapc.filmquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FilmActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Zanrovi">
+        </activity>
+        <activity android:name=".Akcija">
+        </activity>
+        <activity android:name=".Animirani">
+        </activity>
+        <activity android:name=".Drama">
+        </activity>
+        <activity android:name=".Komedija">
+        </activity>
+        <activity android:name=".Romanticni">
+        </activity>
+        <activity android:name=".Kviz">
+        </activity>
+        <activity android:name=".RezultatKviza">
+        </activity>
+    </application>
+
+</manifest>

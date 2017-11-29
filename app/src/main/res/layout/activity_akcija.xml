@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_akcija"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aminapc.filmquiz.Akcija">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    app:srcCompat="@drawable/terminator"
+                    android:id="@+id/terminator"/>
+
+                <TextView
+                    android:text="Terminator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:id="@+id/terminator_naslov"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold"
+                    android:textSize="18dp"
+                    android:textColor="#a9508a"/>
+
+                <TextView
+                    android:text='Terminator (eng. The Terminator) je američki znanstveno fantastični film iz 1984. u režiji Jamesa Camerona s Arnoldom Schwarzeneggerom u glavnoj ulozi.  Film govori o "kibernetičkom organizmu" (živo tkivo preko metalnog kostura) Terminatoru (Schwarzenegger), koji je poslan iz 2029. godine u Los Angeles 1984. kako bi ubio ženu po imenu Sarah Connor (glumi je Linda Hamilton). U isto vrijeme, Kyle Reese (glumi ga Michael Biehn), poslan je iz budućnosti kako bi je zaštitio. Usprkos niskom budžetu i niskim očekivanjima, film je zaradio 38,4 milijuna $ u američkim kinima, te je postao 21. najkomercijalniji film godine.[1]  Snimljena su i tri nastavka od kojih je prvi bio Terminator 2: Sudnji dan iz 1991., drugi Terminator 3: Pobuna strojeva iz 2003, a treći Terminator: Spasenje iz 2009. godine.'
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="16dp"
+                    android:id="@+id/terminator_opis"
+                    android:textColor="#a9508a"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    app:srcCompat="@drawable/diehard"
+                    android:id="@+id/diehard"/>
+
+                <TextView
+                    android:text="Die Hard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:id="@+id/diehard_naslov"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textColor="#a9508a"/>
+
+                <TextView
+                    android:text="Umri muški (engl. Die Hard) američki je akcijski triler Johna McTiernana iz 1988. s Bruceom Willisom u glavnoj ulozi. Film je bio veliki komercijalni i kritički uspjeh, a lansirao je i Willisovu karijeru, nakon čega je dobijao akcijske, dramske i muzičke uloge.  Film je zasnovan na romanu Rodericka Thorpa iz 1979, Nothing Lasts Forever. Sami roman bio je nastavak knjige Detektiv, koja je 1968. ekranizirana na filmu, a u glavnoj ulozi pojavio se Frank Sinatra."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:id="@+id/diehard_opis"
+                    android:textColor="#a9508a"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    app:srcCompat="@drawable/truelies"
+                    android:id="@+id/truelies"/>
+
+                <TextView
+                    android:text="True lies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:id="@+id/truelies_naslov"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textColor="#a9508a"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:textColor="#a9508a"
+                    android:id="@+id/truelies_opis"
+                    android:textAlignment="center"
+                    android:text="True Lies je američki akcioni film režisera Džejmsa Kamerona sa Arnoldom Švarcenegerom u glavnoj ulozi. Film je rimejk francuskog filma La Totale iz 1991. godine. Na prostoru bivše Jugoslavije je distribuiran pod naslovom Istinite laži.  U vreme premijere 1994. godine je sa budžetom procenjenim između 100 i 120 miliona dolara predstavljao najskuplji film dotada snimljen. Iako mu je deo kritičara zamerao navodno korištenje rasističkih i seksističkih i islamofobnih stereotipova (pa je, između ostalog, potakao osnivanje organizacije vašingtonske lobističke organizacije Savet za američko-islamske odnose), ostvario je veliki komercijalni uspeh i preporodio karijere Džejmsa Kamerona (koji je posle snimio Titanik i Arnolda Švarcenegera koji se time oporavio od fijaska Poslednjeg akcionog heroja prethodne godine."/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
